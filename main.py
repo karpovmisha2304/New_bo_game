@@ -31,7 +31,7 @@ async def main():
     )
     dp = Dispatcher()
 
-    # Регистриуем роутеры в диспетчере
+    # Регистриуем роутеры в диспетчеpip insatре
     dp.include_router(user_router)
     dp.include_router(other_router)
 
